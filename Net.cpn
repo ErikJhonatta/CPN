@@ -358,7 +358,7 @@
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414013351">
-          <posattr x="-86.000000"
+          <posattr x="-81.500000"
                    y="-710.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -369,7 +369,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">UNIT</text>
+                version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412353225">
           <posattr x="-69.000000"
@@ -998,7 +998,7 @@
         <box w="93.000000"
              h="40.000000"/>
         <subst subpage="ID1412354351"
-               portsock="(ID1412354359,ID1412350323)">
+               portsock="(ID1412354359,ID1412350323)(ID1413846935,ID1412353223)">
           <subpageinfo id="ID1412354381"
                        name="Descent">
             <posattr x="-126.000000"
@@ -6918,7 +6918,7 @@ gerenciamento</text>
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Comecando fetch 
@@ -6993,7 +6993,7 @@ fluxo</text>
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Detectando permanencia 
@@ -7068,7 +7068,7 @@ de congestionamento ou pior</text>
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Re-comando de espera 
@@ -7143,7 +7143,7 @@ no ar e revisao de fluxo</text>
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Detecao de conges-
@@ -7258,9 +7258,9 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1412354353"/>
         <placeend idref="ID1413830849"/>
-        <annot id="ID1413846102">
-          <posattr x="-64.000000"
-                   y="-829.000000"/>
+        <annot id="ID1414016786">
+          <posattr x="-212.000000"
+                   y="-776.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -7303,7 +7303,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413846105">
+        <annot id="ID1414016787">
           <posattr x="228.000000"
                    y="-761.000000"/>
           <fillattr colour="White"
@@ -7335,8 +7335,8 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413833045"/>
         <placeend idref="ID1413835322"/>
-        <annot id="ID1413846107">
-          <posattr x="260.000000"
+        <annot id="ID1414016788">
+          <posattr x="269.000000"
                    y="-829.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -7380,7 +7380,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413846108">
+        <annot id="ID1414016789">
           <posattr x="433.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
@@ -7425,7 +7425,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413846109">
+        <annot id="ID1414016790">
           <posattr x="425.000000"
                    y="-898.000000"/>
           <fillattr colour="White"
@@ -7457,7 +7457,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413837554"/>
         <placeend idref="ID1413841174"/>
-        <annot id="ID1413846110">
+        <annot id="ID1414016791">
           <posattr x="679.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
@@ -7489,7 +7489,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413842199"/>
         <placeend idref="ID1413841174"/>
-        <annot id="ID1413846111">
+        <annot id="ID1414016792">
           <posattr x="913.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
@@ -7521,8 +7521,8 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413842199"/>
         <placeend idref="ID1413844688"/>
-        <annot id="ID1413846112">
-          <posattr x="1158.000000"
+        <annot id="ID1414016793">
+          <posattr x="1161.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -7553,7 +7553,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413845873"/>
         <placeend idref="ID1413844688"/>
-        <annot id="ID1413847000">
+        <annot id="ID1414016794">
           <posattr x="1397.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
@@ -7646,7 +7646,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413849984"
-           orientation="TtoP"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -7688,7 +7688,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413849985">
+        <annot id="ID1414016795">
           <posattr x="588.000000"
                    y="-715.000000"/>
           <fillattr colour="White"
@@ -7759,7 +7759,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413850266">
+        <annot id="ID1414016796">
           <posattr x="984.000000"
                    y="-694.000000"/>
           <fillattr colour="White"
@@ -7817,7 +7817,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413852888">
+        <annot id="ID1414016797">
           <posattr x="1026.000000"
                    y="-673.000000"/>
           <fillattr colour="White"
@@ -7875,7 +7875,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413853078">
+        <annot id="ID1414016798">
           <posattr x="1068.000000"
                    y="-652.000000"/>
           <fillattr colour="White"
@@ -7907,7 +7907,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413842199"/>
         <placeend idref="ID1413853855"/>
-        <annot id="ID1413854469">
+        <annot id="ID1414016799">
           <posattr x="1045.000000"
                    y="-586.000000"/>
           <fillattr colour="White"
@@ -7939,7 +7939,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413854891"/>
         <placeend idref="ID1413853855"/>
-        <annot id="ID1413856004">
+        <annot id="ID1414016800">
           <posattr x="1045.000000"
                    y="-323.000000"/>
           <fillattr colour="White"
@@ -7971,7 +7971,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413854891"/>
         <placeend idref="ID1413856236"/>
-        <annot id="ID1413857435">
+        <annot id="ID1414016801">
           <posattr x="1045.000000"
                    y="-180.000000"/>
           <fillattr colour="White"
@@ -8003,7 +8003,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413857685"/>
         <placeend idref="ID1413856236"/>
-        <annot id="ID1413858457">
+        <annot id="ID1414016802">
           <posattr x="1198.000000"
                    y="-97.000000"/>
           <fillattr colour="White"
@@ -8019,7 +8019,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413858981"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -8061,9 +8061,9 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413858982">
-          <posattr x="1043.000000"
-                   y="-48.000000"/>
+        <annot id="ID1414016803">
+          <posattr x="1362.000000"
+                   y="-74.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -8077,7 +8077,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413859252"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -8119,7 +8119,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413859253">
+        <annot id="ID1414016804">
           <posattr x="1424.000000"
                    y="-65.000000"/>
           <fillattr colour="White"
@@ -8135,7 +8135,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413859526"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -8177,7 +8177,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413859527">
+        <annot id="ID1414016805">
           <posattr x="1488.000000"
                    y="-44.000000"/>
           <fillattr colour="White"
@@ -8209,8 +8209,8 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413857685"/>
         <placeend idref="ID1413861205"/>
-        <annot id="ID1413862363">
-          <posattr x="1425.000000"
+        <annot id="ID1414016806">
+          <posattr x="1424.000000"
                    y="-159.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -8254,9 +8254,9 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413864830">
+        <annot id="ID1414016807">
           <posattr x="1424.000000"
-                   y="-517.000000"/>
+                   y="-516.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -8286,7 +8286,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413862661"/>
         <placeend idref="ID1413861205"/>
-        <annot id="ID1413865155">
+        <annot id="ID1414016808">
           <posattr x="1424.000000"
                    y="-266.000000"/>
           <fillattr colour="White"
@@ -8370,7 +8370,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413874540">
+        <annot id="ID1414016809">
           <posattr x="1032.000000"
                    y="-228.000000"/>
           <fillattr colour="White"
@@ -8415,7 +8415,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413873344">
+        <annot id="ID1414016810">
           <posattr x="1290.000000"
                    y="-347.000000"/>
           <fillattr colour="White"
@@ -8460,7 +8460,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413873740">
+        <annot id="ID1414016811">
           <posattr x="1143.000000"
                    y="-241.000000"/>
           <fillattr colour="White"
@@ -8505,9 +8505,9 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413874139">
+        <annot id="ID1414016812">
           <posattr x="1097.000000"
-                   y="-750.000000"/>
+                   y="-751.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -8550,7 +8550,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413892751">
+        <annot id="ID1414016813">
           <posattr x="1185.000000"
                    y="-300.000000"/>
           <fillattr colour="White"
@@ -8582,7 +8582,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413893680"/>
         <placeend idref="ID1413896536"/>
-        <annot id="ID1413899495">
+        <annot id="ID1414016814">
           <posattr x="1740.000000"
                    y="-176.000000"/>
           <fillattr colour="White"
@@ -8627,7 +8627,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413900508">
+        <annot id="ID1414016815">
           <posattr x="1640.000000"
                    y="-665.000000"/>
           <fillattr colour="White"
@@ -8643,7 +8643,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413904670"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -8685,7 +8685,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413904671">
+        <annot id="ID1414016816">
           <posattr x="1740.000000"
                    y="-29.000000"/>
           <fillattr colour="White"
@@ -8701,7 +8701,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413905208"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -8743,7 +8743,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413905209">
+        <annot id="ID1414016817">
           <posattr x="1782.000000"
                    y="-12.000000"/>
           <fillattr colour="White"
@@ -8759,7 +8759,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413905749"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -8801,7 +8801,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413905750">
+        <annot id="ID1414016818">
           <posattr x="1813.000000"
                    y="13.000000"/>
           <fillattr colour="White"
@@ -8859,7 +8859,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413906294">
+        <annot id="ID1414016819">
           <posattr x="1698.000000"
                    y="52.000000"/>
           <fillattr colour="White"
@@ -8891,7 +8891,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1412354353"/>
         <placeend idref="ID1413830817"/>
-        <annot id="ID1413956617">
+        <annot id="ID1414016820">
           <posattr x="-141.000000"
                    y="-829.000000"/>
           <fillattr colour="White"
@@ -8936,7 +8936,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413958929">
+        <annot id="ID1414016821">
           <posattr x="-425.000000"
                    y="-814.000000"/>
           <fillattr colour="White"
@@ -8984,7 +8984,7 @@ tionamento resolvido</text>
         </annot>
       </arc>
       <arc id="ID1413962031"
-           orientation="PtoT"
+           orientation="BOTHDIR"
            order="1">
         <posattr x="0.000000"
                  y="0.000000"/>
@@ -9039,7 +9039,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413962032">
+        <annot id="ID1414016822">
           <posattr x="-212.000000"
                    y="-797.000000"/>
           <fillattr colour="White"
@@ -9097,7 +9097,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
         </bendpoint>
-        <annot id="ID1413962820">
+        <annot id="ID1414016823">
           <posattr x="-430.000000"
                    y="-987.000000"/>
           <fillattr colour="White"
@@ -9129,7 +9129,7 @@ tionamento resolvido</text>
                    currentcyckle="2"/>
         <transend idref="ID1413833045"/>
         <placeend idref="ID1413830817"/>
-        <annot id="ID1413964399">
+        <annot id="ID1414016824">
           <posattr x="101.000000"
                    y="-829.000000"/>
           <fillattr colour="White"
@@ -9296,7 +9296,7 @@ tionamento resolvido</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414013352">
-          <posattr x="-607.000000"
+          <posattr x="-602.500000"
                    y="-569.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9307,7 +9307,7 @@ tionamento resolvido</text>
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.1">UNIT</text>
+                version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412357524">
           <posattr x="-590.000000"
@@ -9325,8 +9325,8 @@ tionamento resolvido</text>
         </initmark>
         <port id="ID1412357564"
               type="In">
-          <posattr x="-671.000000"
-                   y="-562.000000"/>
+          <posattr x="-647.000000"
+                   y="-546.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -11397,8 +11397,8 @@ o portao</text>
         <text>Torre</text>
         <ellipse w="60.000000"
                  h="40.000000"/>
-        <token x="-115.000000"
-               y="-17.500000"/>
+        <token x="-80.000000"
+               y="-15.000000"/>
         <marking x="0.000000"
                  y="0.000000"
                  hidden="false">
@@ -16712,7 +16712,17 @@ nao aprovado</text>
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
+      <option name="extensions.10001.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
       <option name="extensions.10003.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10007.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -16722,7 +16732,12 @@ nao aprovado</text>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10006.enable">
+      <option name="extensions.10008.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10004.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -16732,9 +16747,24 @@ nao aprovado</text>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10001.enable">
+      <option name="extensions.10006.enable">
         <value>
           <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10011.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10007.options.discover">
+        <value>
+          <boolean>false</boolean>
+        </value>
+      </option>
+      <option name="extensions.10011.options.disable">
+        <value>
+          <boolean>false</boolean>
         </value>
       </option>
       <option name="repavg">
@@ -16941,8 +16971,8 @@ nao aprovado</text>
                  height="695">
         <sheets>
           <cpnsheet id="ID2215"
-                    panx="-212.937500"
-                    pany="-791.375000"
+                    panx="-240.937500"
+                    pany="-531.375000"
                     zoom="1.000000"
                     instance="ID2149">
             <zorder>
@@ -16950,8 +16980,8 @@ nao aprovado</text>
             </zorder>
           </cpnsheet>
           <cpnsheet id="ID1413679099"
-                    panx="-286.908750"
-                    pany="-228.558750"
+                    panx="-396.908750"
+                    pany="-278.558750"
                     zoom="0.800000"
                     instance="ID1412361321">
             <zorder>
@@ -16959,16 +16989,26 @@ nao aprovado</text>
             </zorder>
           </cpnsheet>
           <cpnsheet id="ID1413830762"
-                    panx="-1594.886719"
-                    pany="-286.300781"
-                    zoom="1.000000"
+                    panx="-1107.103234"
+                    pany="-505.442610"
+                    zoom="0.805664"
                     instance="ID1412354382">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414016676"
+                    panx="29.000000"
+                    pany="-550.000000"
+                    zoom="1.000000"
+                    instance="ID1412357545">
             <zorder>
               <position value="0"/>
             </zorder>
           </cpnsheet>
         </sheets>
         <zorder>
+          <position value="3"/>
           <position value="1"/>
           <position value="0"/>
           <position value="2"/>
@@ -17039,11 +17079,19 @@ nao aprovado</text>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+          <IndexNode expanded="false"/>
+        </IndexNode>
+        <IndexNode expanded="false">
+          <IndexNode expanded="false"/>
+        </IndexNode>
+        <IndexNode expanded="false">
+          <IndexNode expanded="false"/>
         </IndexNode>
       </IndexNode>
-      <IndexNode expanded="false">
-        <IndexNode expanded="false"/>
-      </IndexNode>
+      <IndexNode expanded="false"/>
       <IndexNode expanded="true">
         <IndexNode expanded="false">
           <IndexNode expanded="true"/>
