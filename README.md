@@ -2,7 +2,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![AGPL-3.0 License][license-shield]][license-url]
 
 <h3 align="center">CPN</h3>
 <p align="center">Repositório para a disciplina de Tópicos Especiais em Engenharia de Software 2021.1</p>
