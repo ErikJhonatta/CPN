@@ -1,0 +1,516 @@
+CPN Tools state space report for:
+/cygdrive/E/Development/CPN/Net.cpn
+Report generated: Tue May 17 00:04:31 2022
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  39749
+     Arcs:   127826
+     Secs:   2654
+     Status: Partial
+
+  Scc Graph
+     Nodes:  31516
+     Arcs:   109545
+     Secs:   2
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     Approach'Aguardando_resposta_de_pouso 1
+                             3          0
+     Approach'Checando_pouso 1
+                             3          0
+     Approach'Monitorando 1  2          0
+     Approach'Torre6 1       1          1
+     Approach'Transferindo 1 1          0
+     Departure'CART3 1       1          0
+     Departure'CCTRA3 1      1          1
+     Departure'Monitorando 1 2          0
+     Departure'Torre3 1      1          0
+     Departure'partir_e_sair 1
+                             3          0
+     Departure'transferindo1 1
+                             1          0
+     Departure'transferindo2 1
+                             1          0
+     Descent'ARTCC 1         1          1
+     Descent'Checando_DRC 1  1          0
+     Descent'Descida_e_monitorando 1
+                             1          0
+     Descent'Esperando_DRC_responder 1
+                             1          0
+     Descent'Fazendo_fetch_do_fuxo 1
+                             1          0
+     Descent'Monitoramento_de_gerenciamento_de_refluxo 1
+                             1          0
+     Descent'Preparar_o_gerenciamento_de_fluxo_de_parada 1
+                             1          0
+     Descent'Revisao_de_estrategia 1
+                             1          0
+     Descent'Segurando_re 1  1          0
+     Descent'TRACON 1        1          1
+     Descent'Torre 1         1          1
+     Descent'avalicao 1      1          0
+     Descent'gerando_flow_de_gerenciamento_decisao 1
+                             1          0
+     Full_model'Decolagem_e_Monitoramento 1
+                             3          0
+     Full_model'Descida_e_Monitoramento 1
+                             5          0
+     Full_model'Info1 1      3          0
+     Full_model'Info2 1      1          0
+     Full_model'Landed 1     1          0
+     Full_model'Monitoramento_TACC 1
+                             2          0
+     Full_model'Monitoramento_Tracon 1
+                             1          0
+     Full_model'Monitoramento_da_torre 1
+                             1          0
+     Full_model'No_chao 1    3          0
+     Full_model'Numero 1     1          1
+     Full_model'Start 1      3          0
+     Full_model'Taxiamento 1 3          0
+     Full_model'Torre7 1     1          0
+     Full_model'Torre_2 1    4          1
+     Landing'Aguardando_torre 1
+                             1          0
+     Landing'Avaliacao 1     1          0
+     Landing'Pousando 1      1          0
+     Landing'Taxiamento_para_o_portao 1
+                             1          0
+     Landing'Torre 1         1          0
+     Landing'monitoramento_de_pouso 1
+                             1          0
+     Landing'novo_procedimento_de_pouso 1
+                             1          0
+     Landing'preparar_para_parar_novo_procedimento_de_pouso 1
+                             0          0
+     OnRoute'Aguardando_resposta 1
+                             2          0
+     OnRoute'CART4 1         1          0
+     OnRoute'CART5 1         1          1
+     OnRoute'CCTRA4 1        1          0
+     OnRoute'Em_rota_e_monitorando 1
+                             2          0
+     OnRoute'Monitorando 1   1          0
+     OnRoute'transferindo1 1 1          0
+     OnRoute'transferindo2 1 1          0
+     Preflight'Aguardando_Pushback 1
+                             3          0
+     Preflight'Checagem_de_Requisicao_de_pushback 1
+                             3          0
+     Preflight'Torre_1 1     1          1
+     Takeoff'CART2 1         1          1
+     Takeoff'Checagem_de_liberacao_de_decolagem 1
+                             3          0
+     Takeoff'aguardando_aprovacao_de_timeslot 1
+                             6          0
+     Takeoff'aguardando_liberacao_de_decolagem 1
+                             3          0
+     Takeoff'checagem_de_informacao_para_nova_requisicao_de_decolagem 1
+                             3          0
+     Takeoff'checagem_de_liberacao_de_timeslot 1
+                             3          0
+     Takeoff'processamento_de_informacoes_de_decolagem 1
+                             3          0
+
+  Best Upper Multi-set Bounds
+     Approach'Aguardando_resposta_de_pouso 1
+                         3`(1,"Cessna")++
+3`(2,"C-17")++
+3`(3,"767")
+     Approach'Checando_pouso 1
+                         3`(1,"Cessna")++
+3`(2,"C-17")++
+3`(3,"767")
+     Approach'Monitorando 1
+                         2`(1,"Cessna")++
+2`(2,"C-17")++
+2`(3,"767")
+     Approach'Torre6 1   1`1
+     Approach'Transferindo 1
+                         1`1
+     Departure'CART3 1   1`1
+     Departure'CCTRA3 1  1`1
+     Departure'Monitorando 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Departure'Torre3 1  1`1
+     Departure'partir_e_sair 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Departure'transferindo1 1
+                         1`1
+     Departure'transferindo2 1
+                         1`1
+     Descent'ARTCC 1     1`1
+     Descent'Checando_DRC 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Descida_e_monitorando 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Esperando_DRC_responder 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Fazendo_fetch_do_fuxo 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Monitoramento_de_gerenciamento_de_refluxo 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Preparar_o_gerenciamento_de_fluxo_de_parada 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Revisao_de_estrategia 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'Segurando_re 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'TRACON 1    1`1
+     Descent'Torre 1     1`1
+     Descent'avalicao 1  1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Descent'gerando_flow_de_gerenciamento_decisao 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Decolagem_e_Monitoramento 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Descida_e_Monitoramento 1
+                         5`(1,"Cessna")++
+5`(2,"C-17")++
+4`(3,"767")
+     Full_model'Info1 1  3`1
+     Full_model'Info2 1  1`1
+     Full_model'Landed 1 1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Monitoramento_TACC 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Monitoramento_Tracon 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Monitoramento_da_torre 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'No_chao 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Numero 1 1`1++
+1`2++
+1`3++
+1`4
+     Full_model'Start 1  1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Taxiamento 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Full_model'Torre7 1 1`1
+     Full_model'Torre_2 1
+                         4`1
+     Landing'Aguardando_torre 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Landing'Avaliacao 1 1`(1,"Cessna")++
+1`(2,"C-17")
+     Landing'Pousando 1  1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Landing'Taxiamento_para_o_portao 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Landing'Torre 1     1`1
+     Landing'monitoramento_de_pouso 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Landing'novo_procedimento_de_pouso 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Landing'preparar_para_parar_novo_procedimento_de_pouso 1
+                         empty
+     OnRoute'Aguardando_resposta 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     OnRoute'CART4 1     1`1
+     OnRoute'CART5 1     1`1
+     OnRoute'CCTRA4 1    1`1
+     OnRoute'Em_rota_e_monitorando 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     OnRoute'Monitorando 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     OnRoute'transferindo1 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     OnRoute'transferindo2 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Preflight'Aguardando_Pushback 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Preflight'Checagem_de_Requisicao_de_pushback 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Preflight'Torre_1 1 1`1
+     Takeoff'CART2 1     1`1
+     Takeoff'Checagem_de_liberacao_de_decolagem 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Takeoff'aguardando_aprovacao_de_timeslot 1
+                         6`(1,"Cessna")++
+6`(2,"C-17")++
+6`(3,"767")
+     Takeoff'aguardando_liberacao_de_decolagem 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Takeoff'checagem_de_informacao_para_nova_requisicao_de_decolagem 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Takeoff'checagem_de_liberacao_de_timeslot 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+     Takeoff'processamento_de_informacoes_de_decolagem 1
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
+
+  Best Lower Multi-set Bounds
+     Approach'Aguardando_resposta_de_pouso 1
+                         empty
+     Approach'Checando_pouso 1
+                         empty
+     Approach'Monitorando 1
+                         empty
+     Approach'Torre6 1   1`1
+     Approach'Transferindo 1
+                         empty
+     Departure'CART3 1   empty
+     Departure'CCTRA3 1  1`1
+     Departure'Monitorando 1
+                         empty
+     Departure'Torre3 1  empty
+     Departure'partir_e_sair 1
+                         empty
+     Departure'transferindo1 1
+                         empty
+     Departure'transferindo2 1
+                         empty
+     Descent'ARTCC 1     1`1
+     Descent'Checando_DRC 1
+                         empty
+     Descent'Descida_e_monitorando 1
+                         empty
+     Descent'Esperando_DRC_responder 1
+                         empty
+     Descent'Fazendo_fetch_do_fuxo 1
+                         empty
+     Descent'Monitoramento_de_gerenciamento_de_refluxo 1
+                         empty
+     Descent'Preparar_o_gerenciamento_de_fluxo_de_parada 1
+                         empty
+     Descent'Revisao_de_estrategia 1
+                         empty
+     Descent'Segurando_re 1
+                         empty
+     Descent'TRACON 1    1`1
+     Descent'Torre 1     1`1
+     Descent'avalicao 1  empty
+     Descent'gerando_flow_de_gerenciamento_decisao 1
+                         empty
+     Full_model'Decolagem_e_Monitoramento 1
+                         empty
+     Full_model'Descida_e_Monitoramento 1
+                         empty
+     Full_model'Info1 1  empty
+     Full_model'Info2 1  empty
+     Full_model'Landed 1 empty
+     Full_model'Monitoramento_TACC 1
+                         empty
+     Full_model'Monitoramento_Tracon 1
+                         empty
+     Full_model'Monitoramento_da_torre 1
+                         empty
+     Full_model'No_chao 1
+                         empty
+     Full_model'Numero 1 empty
+     Full_model'Start 1  empty
+     Full_model'Taxiamento 1
+                         empty
+     Full_model'Torre7 1 empty
+     Full_model'Torre_2 1
+                         1`1
+     Landing'Aguardando_torre 1
+                         empty
+     Landing'Avaliacao 1 empty
+     Landing'Pousando 1  empty
+     Landing'Taxiamento_para_o_portao 1
+                         empty
+     Landing'Torre 1     empty
+     Landing'monitoramento_de_pouso 1
+                         empty
+     Landing'novo_procedimento_de_pouso 1
+                         empty
+     Landing'preparar_para_parar_novo_procedimento_de_pouso 1
+                         empty
+     OnRoute'Aguardando_resposta 1
+                         empty
+     OnRoute'CART4 1     empty
+     OnRoute'CART5 1     1`1
+     OnRoute'CCTRA4 1    empty
+     OnRoute'Em_rota_e_monitorando 1
+                         empty
+     OnRoute'Monitorando 1
+                         empty
+     OnRoute'transferindo1 1
+                         empty
+     OnRoute'transferindo2 1
+                         empty
+     Preflight'Aguardando_Pushback 1
+                         empty
+     Preflight'Checagem_de_Requisicao_de_pushback 1
+                         empty
+     Preflight'Torre_1 1 1`1
+     Takeoff'CART2 1     1`1
+     Takeoff'Checagem_de_liberacao_de_decolagem 1
+                         empty
+     Takeoff'aguardando_aprovacao_de_timeslot 1
+                         empty
+     Takeoff'aguardando_liberacao_de_decolagem 1
+                         empty
+     Takeoff'checagem_de_informacao_para_nova_requisicao_de_decolagem 1
+                         empty
+     Takeoff'checagem_de_liberacao_de_timeslot 1
+                         empty
+     Takeoff'processamento_de_informacoes_de_decolagem 1
+                         empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     8842 [39749,39748,39747,39746,39745,...]
+
+  Dead Transition Instances
+     Descent'terminando_flow_de_gerenciamento 1
+     Landing'Terminado_novo_procedimento_de_pouso 1
+     Landing'ainda_nao_aprovado 1
+     Landing'aprovado 1
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     None
+
+  Fair Transition Instances
+     Descent'terminando_flow_de_gerenciamento 1
+     Landing'Terminado_novo_procedimento_de_pouso 1
+     Landing'ainda_nao_aprovado 1
+     Landing'aprovado 1
+     Landing'obtendo_dados_de_trafego_aereo 1
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     Approach'Iniciar_transferencia 1
+     Approach'Pouso_Aprovado 1
+     Approach'Pouso_nao_aprovado 1
+     Approach'Solicitacao_de_liberacao_para_abordagem_e_pouso 1
+     Approach'Transferencia_terminada 1
+     Departure'Receber_instrucoes_de_voo 1
+     Departure'Transferencia_terminada1 1
+     Departure'Transferencia_terminada2 1
+     Departure'iniciar_tranferencia 1
+     Departure'iniciar_transferencia 1
+     Descent'Comeando_flow_de_gerenciamento 1
+     Descent'Comecando_fetch_fluxo 1
+     Descent'Congestionamento_detectado 1
+     Descent'Congestionamento_nao_detectado 1
+     Descent'DRC_aprovado 1
+     Descent'DRC_nao_aprovado 1
+     Descent'Detecao_de_conges 1
+     Descent'Detectando_permanencia_de_congestionamento_ou_pior 1
+     Descent'Re 1
+     Descent'Solicicitacao_de_autorizao_de_descida 1
+     Full_model'Chooser 1
+     Full_model'Controle1 1
+     Full_model'Controle2 1
+     Landing'Aproximacao_perdida 1
+     Landing'Arremetida 1
+     Landing'Instrucao_taxiamento_para_o_portao 1
+     Landing'Liberacao_de_pouso 1
+     Landing'Turnaround 1
+     Landing'assign 1
+     OnRoute'Dedicacao_de_rota 1
+     OnRoute'Solicitacao_de_liberacao_de_rota 1
+     OnRoute'iniciar_transferencia1 1
+     OnRoute'iniciar_transferencia2 1
+     OnRoute'transferencia_terminada1 1
+     OnRoute'transferencia_terminada2 1
+     Preflight'Pushback_aprovado 1
+     Preflight'Pushback_negado 1
+     Preflight'Requisitar_Pushback 1
+     Takeoff'Decolagem_nao_permitida 1
+     Takeoff'Requisicao_de_Time_Slot 1
+     Takeoff'Requisicao_de_liberacao_de_decolagem 1
+     Takeoff'Time_slot_nao_aprovado 1
+     Takeoff'decolagem_aprovada 1
+     Takeoff'time_slot_aprovado 1
