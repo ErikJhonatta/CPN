@@ -138,7 +138,7 @@
         <textattr colour="Black"
                   bold="false"/>
         <text>Taxiamento</text>
-        <ellipse w="60.000000"
+        <ellipse w="80.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -150,7 +150,7 @@
                 anchor.vertical="2"/>
         </marking>
         <type id="ID1412329944">
-          <posattr x="-459.500000"
+          <posattr x="-452.500000"
                    y="-425.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -164,7 +164,7 @@
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412329945">
-          <posattr x="-447.000000"
+          <posattr x="-440.000000"
                    y="-378.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -191,8 +191,8 @@
                   bold="false"/>
         <text>Decolagem e
 Monitoramento</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="112.000000"
+                 h="48.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -203,8 +203,8 @@ Monitoramento</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412343399">
-          <posattr x="-459.500000"
-                   y="-706.000000"/>
+          <posattr x="-441.500000"
+                   y="-709.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -217,8 +217,8 @@ Monitoramento</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412343400">
-          <posattr x="-447.000000"
-                   y="-659.000000"/>
+          <posattr x="-429.000000"
+                   y="-656.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -244,7 +244,7 @@ Monitoramento</text>
                   bold="false"/>
         <text>Monitoramento
 TACC</text>
-        <ellipse w="60.000000"
+        <ellipse w="134.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -256,7 +256,7 @@ TACC</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412347618">
-          <posattr x="-459.500000"
+          <posattr x="-433.500000"
                    y="-1011.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -270,7 +270,7 @@ TACC</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412347619">
-          <posattr x="-447.000000"
+          <posattr x="-421.000000"
                    y="-964.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -297,8 +297,8 @@ TACC</text>
                   bold="false"/>
         <text>Monitoramento
 Tracon</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="126.000000"
+                 h="44.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -309,8 +309,8 @@ Tracon</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412350324">
-          <posattr x="-81.500000"
-                   y="-1011.000000"/>
+          <posattr x="-58.500000"
+                   y="-1013.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -323,8 +323,8 @@ Tracon</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412350325">
-          <posattr x="-69.000000"
-                   y="-964.000000"/>
+          <posattr x="-46.000000"
+                   y="-962.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -349,7 +349,7 @@ Tracon</text>
         <textattr colour="Black"
                   bold="false"/>
         <text>Descida e Monitoramento</text>
-        <ellipse w="60.000000"
+        <ellipse w="176.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -361,7 +361,7 @@ Tracon</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414013351">
-          <posattr x="-81.500000"
+          <posattr x="-40.500000"
                    y="-710.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -375,7 +375,7 @@ Tracon</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412353225">
-          <posattr x="-69.000000"
+          <posattr x="-28.000000"
                    y="-663.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -401,7 +401,7 @@ Tracon</text>
         <textattr colour="Black"
                   bold="false"/>
         <text>Monitoramento da torre</text>
-        <ellipse w="60.000000"
+        <ellipse w="170.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -413,7 +413,7 @@ Tracon</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414034280">
-          <posattr x="-81.500000"
+          <posattr x="-43.500000"
                    y="-425.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -427,7 +427,7 @@ Tracon</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412356316">
-          <posattr x="-69.000000"
+          <posattr x="-31.000000"
                    y="-378.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1707,7 +1707,7 @@ Tracon</text>
         <transend idref="ID1412351369"/>
         <placeend idref="ID1412350323"/>
         <annot id="ID1413066674">
-          <posattr x="-209.000000"
+          <posattr x="-226.000000"
                    y="-977.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1739,7 +1739,7 @@ Tracon</text>
         <transend idref="ID1412351369"/>
         <placeend idref="ID1412347617"/>
         <annot id="ID1412430361">
-          <posattr x="-415.000000"
+          <posattr x="-396.000000"
                    y="-977.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -1772,7 +1772,7 @@ Tracon</text>
         <placeend idref="ID1412350323"/>
         <annot id="ID1413066675">
           <posattr x="-89.500000"
-                   y="-914.000000"/>
+                   y="-913.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -1964,7 +1964,7 @@ Tracon</text>
         <placeend idref="ID1412343398"/>
         <annot id="ID1412430368">
           <posattr x="-467.500000"
-                   y="-615.000000"/>
+                   y="-613.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2060,7 +2060,7 @@ Tracon</text>
         <placeend idref="ID1412343398"/>
         <annot id="ID1412430373">
           <posattr x="-467.500000"
-                   y="-761.000000"/>
+                   y="-763.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2490,36 +2490,6 @@ Tracon</text>
         </annot>
       </arc>
       <constraints/>
-      <Aux id="ID1412421138">
-        <posattr x="-420.000000"
-                 y="-398.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>&lt;- Taxiamento apos o
-Pushback</text>
-      </Aux>
-      <Aux id="ID1412399470">
-        <posattr x="-420.000000"
-                 y="-193.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>&lt;- Lugar representando o
-Aviao no chao, apos ser assignado</text>
-      </Aux>
       <Aux id="ID1412452886">
         <posattr x="-992.000000"
                  y="-690.000000"/>
@@ -2536,37 +2506,6 @@ Aviao no chao, apos ser assignado</text>
 um aviao sera permitido voar quando 
 estiver na etapa de takeoff</text>
       </Aux>
-      <Aux id="ID1412521792">
-        <posattr x="-410.000000"
-                 y="-672.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>&lt;- decolagem e
-monitoramento</text>
-      </Aux>
-      <Aux id="ID1413690327">
-        <posattr x="-239.000000"
-                 y="-378.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>Monitoramento
-da torre
----------&gt;</text>
-      </Aux>
     </page>
     <page id="ID1412330331">
       <pageattr name="Preflight"/>
@@ -2582,7 +2521,7 @@ da torre
         <textattr colour="Black"
                   bold="false"/>
         <text>No chao</text>
-        <ellipse w="60.000000"
+        <ellipse w="76.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -2594,7 +2533,7 @@ da torre
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412330340">
-          <posattr x="-459.500000"
+          <posattr x="-454.500000"
                    y="-149.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2608,7 +2547,7 @@ da torre
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412330341">
-          <posattr x="-447.000000"
+          <posattr x="-442.000000"
                    y="-102.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2623,7 +2562,7 @@ da torre
         </initmark>
         <port id="ID1412330378"
               type="In">
-          <posattr x="-528.000000"
+          <posattr x="-533.000000"
                    y="-142.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2647,7 +2586,7 @@ da torre
         <textattr colour="Black"
                   bold="false"/>
         <text>Taxiamento</text>
-        <ellipse w="60.000000"
+        <ellipse w="92.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -2659,7 +2598,7 @@ da torre
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412330345">
-          <posattr x="-459.500000"
+          <posattr x="-448.500000"
                    y="-527.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2673,7 +2612,7 @@ da torre
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412330346">
-          <posattr x="-447.000000"
+          <posattr x="-436.000000"
                    y="-480.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -2688,7 +2627,7 @@ da torre
         </initmark>
         <port id="ID1412330381"
               type="Out">
-          <posattr x="-528.000000"
+          <posattr x="-539.000000"
                    y="-520.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3293,7 +3232,7 @@ aprovado</text>
         <transend idref="ID1412403033"/>
         <placeend idref="ID1412330339"/>
         <annot id="ID1412403353">
-          <posattr x="-614.000000"
+          <posattr x="-615.000000"
                    y="-115.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3389,7 +3328,7 @@ aprovado</text>
         <transend idref="ID1412404345"/>
         <placeend idref="ID1412330344"/>
         <annot id="ID1412404898">
-          <posattr x="-615.000000"
+          <posattr x="-623.000000"
                    y="-493.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -3479,7 +3418,7 @@ aprovado</text>
     <page id="ID1412351379">
       <pageattr name="OnRoute"/>
       <place id="ID1412351387">
-        <posattr x="1273.000000"
+        <posattr x="1344.000000"
                  y="-988.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -3491,8 +3430,8 @@ aprovado</text>
                   bold="false"/>
         <text>Monitoramento
 Tracon</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="132.000000"
+                 h="48.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -3503,8 +3442,8 @@ Tracon</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412351388">
-          <posattr x="1316.500000"
-                   y="-1011.000000"/>
+          <posattr x="1412.500000"
+                   y="-1014.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3517,8 +3456,8 @@ Tracon</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412351389">
-          <posattr x="1329.000000"
-                   y="-964.000000"/>
+          <posattr x="1425.000000"
+                   y="-961.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3532,8 +3471,8 @@ Tracon</text>
         </initmark>
         <port id="ID1412351429"
               type="Out">
-          <posattr x="1248.000000"
-                   y="-1004.000000"/>
+          <posattr x="1294.000000"
+                   y="-1007.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3557,8 +3496,8 @@ Tracon</text>
                   bold="false"/>
         <text>Monitoramento
 TACC</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="124.000000"
+                 h="52.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -3569,8 +3508,8 @@ TACC</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412351393">
-          <posattr x="-879.500000"
-                   y="-1011.000000"/>
+          <posattr x="-857.500000"
+                   y="-1016.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3583,8 +3522,8 @@ TACC</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412351394">
-          <posattr x="-867.000000"
-                   y="-964.000000"/>
+          <posattr x="-845.000000"
+                   y="-959.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -3598,8 +3537,8 @@ TACC</text>
         </initmark>
         <port id="ID1412351432"
               type="In">
-          <posattr x="-948.000000"
-                   y="-1004.000000"/>
+          <posattr x="-970.000000"
+                   y="-1009.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -4488,7 +4427,7 @@ TACC</text>
         <transend idref="ID1412351381"/>
         <placeend idref="ID1412351392"/>
         <annot id="ID1412430376">
-          <posattr x="-813.000000"
+          <posattr x="-797.000000"
                    y="-977.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -4616,7 +4555,7 @@ TACC</text>
         <transend idref="ID1413077568"/>
         <placeend idref="ID1412351387"/>
         <annot id="ID1413081629">
-          <posattr x="1190.000000"
+          <posattr x="1208.000000"
                    y="-977.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -5813,8 +5752,8 @@ monitorando</text>
                   bold="false"/>
         <text>gerando flow de 
 gerenciamento decisao</text>
-        <ellipse w="156.000000"
-                 h="40.000000"/>
+        <ellipse w="166.000000"
+                 h="50.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -5825,8 +5764,8 @@ gerenciamento decisao</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1413841175">
-          <posattr x="874.500000"
-                   y="-801.000000"/>
+          <posattr x="878.500000"
+                   y="-805.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -5839,8 +5778,8 @@ gerenciamento decisao</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1413841176">
-          <posattr x="887.000000"
-                   y="-754.000000"/>
+          <posattr x="891.000000"
+                   y="-750.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -5865,7 +5804,7 @@ gerenciamento decisao</text>
         <textattr colour="Black"
                   bold="false"/>
         <text>Segurando re-comando</text>
-        <ellipse w="144.000000"
+        <ellipse w="158.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -5877,7 +5816,7 @@ gerenciamento decisao</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1413844689">
-          <posattr x="1361.500000"
+          <posattr x="1366.500000"
                    y="-801.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -5891,7 +5830,7 @@ gerenciamento decisao</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1413844690">
-          <posattr x="1374.000000"
+          <posattr x="1379.000000"
                    y="-754.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -7495,7 +7434,7 @@ tionamento resolvido</text>
         <transend idref="ID1413842199"/>
         <placeend idref="ID1413841174"/>
         <annot id="ID1414016940">
-          <posattr x="913.000000"
+          <posattr x="915.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -7527,7 +7466,7 @@ tionamento resolvido</text>
         <transend idref="ID1413842199"/>
         <placeend idref="ID1413844688"/>
         <annot id="ID1414016941">
-          <posattr x="1161.000000"
+          <posattr x="1160.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -7559,7 +7498,7 @@ tionamento resolvido</text>
         <transend idref="ID1413845873"/>
         <placeend idref="ID1413844688"/>
         <annot id="ID1414016942">
-          <posattr x="1397.000000"
+          <posattr x="1398.000000"
                    y="-767.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9274,8 +9213,9 @@ tionamento resolvido</text>
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>Descida e Monitoramento</text>
-        <ellipse w="60.000000"
+        <text>Descida e
+Monitoramento</text>
+        <ellipse w="140.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -9287,7 +9227,7 @@ tionamento resolvido</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414013352">
-          <posattr x="-698.500000"
+          <posattr x="-670.500000"
                    y="-569.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9301,7 +9241,7 @@ tionamento resolvido</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412357524">
-          <posattr x="-686.000000"
+          <posattr x="-658.000000"
                    y="-522.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9316,7 +9256,7 @@ tionamento resolvido</text>
         </initmark>
         <port id="ID1412357564"
               type="In">
-          <posattr x="-767.000000"
+          <posattr x="-795.000000"
                    y="-562.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9339,8 +9279,9 @@ tionamento resolvido</text>
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>Monitoramento da torre</text>
-        <ellipse w="60.000000"
+        <text>Monitoramento
+da torre</text>
+        <ellipse w="154.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -9352,7 +9293,7 @@ tionamento resolvido</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414034281">
-          <posattr x="617.500000"
+          <posattr x="650.500000"
                    y="-569.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9366,7 +9307,7 @@ tionamento resolvido</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412357529">
-          <posattr x="630.000000"
+          <posattr x="663.000000"
                    y="-522.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -9381,7 +9322,7 @@ tionamento resolvido</text>
         </initmark>
         <port id="ID1412357567"
               type="Out">
-          <posattr x="549.000000"
+          <posattr x="516.000000"
                    y="-562.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10113,7 +10054,7 @@ aprovado</text>
         <transend idref="ID1412357516"/>
         <placeend idref="ID1412357522"/>
         <annot id="ID1413066684">
-          <posattr x="-665.000000"
+          <posattr x="-645.000000"
                    y="-535.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10273,7 +10214,7 @@ aprovado</text>
         <transend idref="ID1413477990"/>
         <placeend idref="ID1412357527"/>
         <annot id="ID1413485732">
-          <posattr x="484.000000"
+          <posattr x="460.000000"
                    y="-535.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10729,7 +10670,7 @@ aprovado</text>
         </bendpoint>
         <bendpoint id="ID1413626748"
                    serial="2">
-          <posattr x="-782.000000"
+          <posattr x="-840.000000"
                    y="-630.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10742,7 +10683,7 @@ aprovado</text>
         </bendpoint>
         <bendpoint id="ID1413639390"
                    serial="3">
-          <posattr x="-782.000000"
+          <posattr x="-840.000000"
                    y="-187.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10754,7 +10695,7 @@ aprovado</text>
                     bold="false"/>
         </bendpoint>
         <annot id="ID1413624950">
-          <posattr x="-745.500000"
+          <posattr x="-803.500000"
                    y="-381.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10829,7 +10770,7 @@ aprovado</text>
         <textattr colour="Black"
                   bold="false"/>
         <text>Landed</text>
-        <ellipse w="60.000000"
+        <ellipse w="72.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -10841,7 +10782,7 @@ aprovado</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412361299">
-          <posattr x="967.500000"
+          <posattr x="971.500000"
                    y="-295.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10855,7 +10796,7 @@ aprovado</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412361300">
-          <posattr x="980.000000"
+          <posattr x="984.000000"
                    y="-248.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10870,7 +10811,7 @@ aprovado</text>
         </initmark>
         <port id="ID1412361340"
               type="Out">
-          <posattr x="899.000000"
+          <posattr x="895.000000"
                    y="-288.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -10883,7 +10824,7 @@ aprovado</text>
         </port>
       </place>
       <place id="ID1412361303">
-        <posattr x="-319.000000"
+        <posattr x="-365.000000"
                  y="-272.000000"/>
         <fillattr colour="White"
                   pattern=""
@@ -10893,9 +10834,10 @@ aprovado</text>
                   type="Solid"/>
         <textattr colour="Black"
                   bold="false"/>
-        <text>Monitoramento da torre</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <text>Monitoramento
+da torre</text>
+        <ellipse w="132.000000"
+                 h="56.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -10906,8 +10848,8 @@ aprovado</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1414034282">
-          <posattr x="-274.500000"
-                   y="-295.000000"/>
+          <posattr x="-295.500000"
+                   y="-301.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -10920,8 +10862,8 @@ aprovado</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412361305">
-          <posattr x="-262.000000"
-                   y="-248.000000"/>
+          <posattr x="-283.000000"
+                   y="-242.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -10935,8 +10877,8 @@ aprovado</text>
         </initmark>
         <port id="ID1412361343"
               type="In">
-          <posattr x="-343.000000"
-                   y="-288.000000"/>
+          <posattr x="-414.000000"
+                   y="-294.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -12196,7 +12138,7 @@ para o portao</text>
         <transend idref="ID1412361292"/>
         <placeend idref="ID1412361303"/>
         <annot id="ID1413066687">
-          <posattr x="-251.000000"
+          <posattr x="-256.000000"
                    y="-261.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -12920,7 +12862,7 @@ para o portao</text>
         <transend idref="ID1413756500"/>
         <placeend idref="ID1412361298"/>
         <annot id="ID1413759265">
-          <posattr x="830.000000"
+          <posattr x="829.000000"
                    y="-261.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13062,8 +13004,8 @@ descarregamento do aviao</text>
                   bold="false"/>
         <text>Decolagem e
 Monitoramento</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="126.000000"
+                 h="52.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -13074,8 +13016,8 @@ Monitoramento</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412382986">
-          <posattr x="394.500000"
-                   y="-569.000000"/>
+          <posattr x="417.500000"
+                   y="-574.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -13088,8 +13030,8 @@ Monitoramento</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412382987">
-          <posattr x="407.000000"
-                   y="-522.000000"/>
+          <posattr x="430.000000"
+                   y="-517.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -13103,8 +13045,8 @@ Monitoramento</text>
         </initmark>
         <port id="ID1412383033"
               type="Out">
-          <posattr x="326.000000"
-                   y="-562.000000"/>
+          <posattr x="303.000000"
+                   y="-567.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -13127,7 +13069,7 @@ Monitoramento</text>
         <textattr colour="Black"
                   bold="false"/>
         <text>Taxiamento</text>
-        <ellipse w="60.000000"
+        <ellipse w="90.000000"
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -13139,7 +13081,7 @@ Monitoramento</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412382991">
-          <posattr x="-669.500000"
+          <posattr x="-659.500000"
                    y="-569.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13153,7 +13095,7 @@ Monitoramento</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412382992">
-          <posattr x="-657.000000"
+          <posattr x="-647.000000"
                    y="-522.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13168,7 +13110,7 @@ Monitoramento</text>
         </initmark>
         <port id="ID1412383036"
               type="In">
-          <posattr x="-738.000000"
+          <posattr x="-748.000000"
                    y="-562.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13524,7 +13466,7 @@ de timeslot</text>
                   bold="false"/>
         <text>checagem de informacao
 para nova requisicao de decolagem</text>
-        <ellipse w="232.500000"
+        <ellipse w="244.500000"
                  h="75.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
@@ -13536,7 +13478,7 @@ para nova requisicao de decolagem</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412503488">
-          <posattr x="-608.500000"
+          <posattr x="-604.500000"
                    y="-347.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13550,7 +13492,7 @@ para nova requisicao de decolagem</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412503489">
-          <posattr x="-596.000000"
+          <posattr x="-592.000000"
                    y="-274.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13705,12 +13647,12 @@ para nova requisicao de decolagem</text>
                   bold="false"/>
         <text>decolagem
 aprovada</text>
-        <box w="68.000000"
+        <box w="82.000000"
              h="42.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412432762">
-          <posattr x="125.000000"
+          <posattr x="118.000000"
                    y="-514.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13724,7 +13666,7 @@ aprovada</text>
                 version="4.0.1"/>
         </cond>
         <time id="ID1412432763">
-          <posattr x="216.500000"
+          <posattr x="223.500000"
                    y="-514.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13738,7 +13680,7 @@ aprovada</text>
                 version="4.0.1"/>
         </time>
         <code id="ID1412432764">
-          <posattr x="236.500000"
+          <posattr x="243.500000"
                    y="-599.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13752,7 +13694,7 @@ aprovada</text>
                 version="4.0.1"/>
         </code>
         <priority id="ID1412432766">
-          <posattr x="96.000000"
+          <posattr x="89.000000"
                    y="-578.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13855,12 +13797,12 @@ permitida</text>
                   bold="false"/>
         <text>Requisicao de 
 Time Slot</text>
-        <box w="90.000000"
+        <box w="102.000000"
              h="40.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412468321">
-          <posattr x="-306.000000"
+          <posattr x="-312.000000"
                    y="-263.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13874,7 +13816,7 @@ Time Slot</text>
                 version="4.0.1"/>
         </cond>
         <time id="ID1412468322">
-          <posattr x="-192.500000"
+          <posattr x="-186.500000"
                    y="-263.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13888,7 +13830,7 @@ Time Slot</text>
                 version="4.0.1"/>
         </time>
         <code id="ID1412468323">
-          <posattr x="-172.500000"
+          <posattr x="-166.500000"
                    y="-346.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -13902,7 +13844,7 @@ Time Slot</text>
                 version="4.0.1"/>
         </code>
         <priority id="ID1412468325">
-          <posattr x="-335.000000"
+          <posattr x="-341.000000"
                    y="-325.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -14084,7 +14026,7 @@ nao aprovado</text>
         <transend idref="ID1412382977"/>
         <placeend idref="ID1412382990"/>
         <annot id="ID1412398676">
-          <posattr x="-634.000000"
+          <posattr x="-627.000000"
                    y="-535.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -14148,7 +14090,7 @@ nao aprovado</text>
         <transend idref="ID1412432761"/>
         <placeend idref="ID1412431899"/>
         <annot id="ID1412432872">
-          <posattr x="-22.000000"
+          <posattr x="-23.000000"
                    y="-535.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -14180,7 +14122,7 @@ nao aprovado</text>
         <transend idref="ID1412432761"/>
         <placeend idref="ID1412382985"/>
         <annot id="ID1412433542">
-          <posattr x="261.000000"
+          <posattr x="246.000000"
                    y="-535.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -14808,8 +14750,8 @@ nao aprovado</text>
                   bold="false"/>
         <text>Monitoramento
 TACC</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="126.000000"
+                 h="52.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -14820,8 +14762,8 @@ TACC</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412349263">
-          <posattr x="-459.500000"
-                   y="-1619.000000"/>
+          <posattr x="-436.500000"
+                   y="-1624.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -14834,8 +14776,8 @@ TACC</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412349264">
-          <posattr x="-447.000000"
-                   y="-1572.000000"/>
+          <posattr x="-424.000000"
+                   y="-1567.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -14849,8 +14791,8 @@ TACC</text>
         </initmark>
         <port id="ID1412349304"
               type="Out">
-          <posattr x="-528.000000"
-                   y="-1612.000000"/>
+          <posattr x="-551.000000"
+                   y="-1617.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -14874,8 +14816,8 @@ TACC</text>
                   bold="false"/>
         <text>Decolagem e
 Monitoramento</text>
-        <ellipse w="60.000000"
-                 h="40.000000"/>
+        <ellipse w="128.000000"
+                 h="50.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
         <marking x="0.000000"
@@ -14886,8 +14828,8 @@ Monitoramento</text>
                 anchor.vertical="0"/>
         </marking>
         <type id="ID1412349268">
-          <posattr x="-459.500000"
-                   y="-695.000000"/>
+          <posattr x="-435.500000"
+                   y="-699.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -14900,8 +14842,8 @@ Monitoramento</text>
                 version="4.0.1">AVIAO</text>
         </type>
         <initmark id="ID1412349269">
-          <posattr x="-447.000000"
-                   y="-648.000000"/>
+          <posattr x="-423.000000"
+                   y="-644.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -14915,8 +14857,8 @@ Monitoramento</text>
         </initmark>
         <port id="ID1412349307"
               type="In">
-          <posattr x="-528.000000"
-                   y="-688.000000"/>
+          <posattr x="-552.000000"
+                   y="-692.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -15517,12 +15459,12 @@ Monitoramento</text>
         <textattr colour="Black"
                   bold="false"/>
         <text>Transferencia terminada1</text>
-        <box w="165.000000"
+        <box w="175.000000"
              h="40.000000"/>
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412613101">
-          <posattr x="-595.500000"
+          <posattr x="-600.500000"
                    y="-1121.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -15536,7 +15478,7 @@ Monitoramento</text>
                 version="4.0.1"/>
         </cond>
         <time id="ID1412613102">
-          <posattr x="-407.000000"
+          <posattr x="-402.000000"
                    y="-1121.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -15550,7 +15492,7 @@ Monitoramento</text>
                 version="4.0.1"/>
         </time>
         <code id="ID1412613103">
-          <posattr x="-387.000000"
+          <posattr x="-382.000000"
                    y="-1204.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -15564,7 +15506,7 @@ Monitoramento</text>
                 version="4.0.1"/>
         </code>
         <priority id="ID1412613105">
-          <posattr x="-624.500000"
+          <posattr x="-629.500000"
                    y="-1183.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -15745,7 +15687,7 @@ Monitoramento</text>
         <placeend idref="ID1412349267"/>
         <annot id="ID1412430386">
           <posattr x="-467.500000"
-                   y="-756.000000"/>
+                   y="-759.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -16296,7 +16238,7 @@ Monitoramento</text>
         <placeend idref="ID1412349262"/>
         <annot id="ID1412635053">
           <posattr x="-467.500000"
-                   y="-1526.000000"/>
+                   y="-1523.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -16713,32 +16655,12 @@ Monitoramento</text>
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10001.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10005.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10011.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
       <option name="extensions.10002.enable">
         <value>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10007.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10008.enable">
+      <option name="extensions.10001.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -16753,19 +16675,9 @@ Monitoramento</text>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10004.enable">
+      <option name="extensions.10005.enable">
         <value>
           <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10011.options.disable">
-        <value>
-          <boolean>false</boolean>
-        </value>
-      </option>
-      <option name="extensions.10007.options.discover">
-        <value>
-          <boolean>false</boolean>
         </value>
       </option>
       <option name="repavg">
@@ -16968,20 +16880,90 @@ Monitoramento</text>
       <cpnbinder id="ID1414058398"
                  x="355"
                  y="53"
-                 width="1024"
-                 height="536">
+                 width="1305"
+                 height="815">
         <sheets>
           <cpnsheet id="ID1414058387"
-                    panx="215.000000"
-                    pany="-305.000000"
+                    panx="267.000000"
+                    pany="-411.000000"
                     zoom="1.000000"
                     instance="ID2149">
             <zorder>
               <position value="0"/>
             </zorder>
           </cpnsheet>
+          <cpnsheet id="ID1414059890"
+                    panx="150.000000"
+                    pany="-426.000000"
+                    zoom="1.000000"
+                    instance="ID1412383010">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414061039"
+                    panx="287.000000"
+                    pany="-977.000000"
+                    zoom="1.000000"
+                    instance="ID1412349285">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414063374"
+                    panx="497.000000"
+                    pany="-293.000000"
+                    zoom="1.000000"
+                    instance="ID1412330362">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414064378"
+                    panx="-970.000000"
+                    pany="-928.000000"
+                    zoom="1.000000"
+                    instance="ID1412351410">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414067123"
+                    panx="-123.000000"
+                    pany="-752.000000"
+                    zoom="1.000000"
+                    instance="ID1412354382">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414070461"
+                    panx="372.000000"
+                    pany="-488.000000"
+                    zoom="1.000000"
+                    instance="ID1412357545">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
+          <cpnsheet id="ID1414074386"
+                    panx="-194.000000"
+                    pany="-377.000000"
+                    zoom="1.000000"
+                    instance="ID1412361321">
+            <zorder>
+              <position value="0"/>
+            </zorder>
+          </cpnsheet>
         </sheets>
         <zorder>
+          <position value="1"/>
+          <position value="2"/>
+          <position value="3"/>
+          <position value="4"/>
+          <position value="5"/>
+          <position value="6"/>
+          <position value="7"/>
           <position value="0"/>
         </zorder>
       </cpnbinder>
@@ -17049,16 +17031,6 @@ Monitoramento</text>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
           <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-        </IndexNode>
-        <IndexNode expanded="false">
-          <IndexNode expanded="false"/>
-        </IndexNode>
-        <IndexNode expanded="false">
           <IndexNode expanded="false"/>
         </IndexNode>
       </IndexNode>
