@@ -1,20 +1,20 @@
 CPN Tools state space report for:
 /cygdrive/E/Development/CPN/Net.cpn
-Report generated: Tue May 17 00:04:31 2022
+Report generated: Wed May 18 18:33:49 2022
 
 
  Statistics
 ------------------------------------------------------------------------
 
   State Space
-     Nodes:  39749
-     Arcs:   127826
-     Secs:   2654
+     Nodes:  46117
+     Arcs:   147752
+     Secs:   688
      Status: Partial
 
   Scc Graph
-     Nodes:  31516
-     Arcs:   109545
+     Nodes:  37464
+     Arcs:   129241
      Secs:   2
 
 
@@ -24,15 +24,15 @@ Report generated: Tue May 17 00:04:31 2022
   Best Integer Bounds
                              Upper      Lower
      Approach'Aguardando_resposta_de_pouso 1
-                             3          0
+                             1          0
      Approach'Checando_pouso 1
-                             3          0
-     Approach'Monitorando 1  2          0
+                             1          0
+     Approach'Monitorando 1  1          0
      Approach'Torre6 1       1          1
      Approach'Transferindo 1 1          0
      Departure'CART3 1       1          0
      Departure'CCTRA3 1      1          1
-     Departure'Monitorando 1 2          0
+     Departure'Monitorando 1 3          0
      Departure'Torre3 1      1          0
      Departure'partir_e_sair 1
                              3          0
@@ -63,7 +63,7 @@ Report generated: Tue May 17 00:04:31 2022
      Full_model'Decolagem_e_Monitoramento 1
                              3          0
      Full_model'Descida_e_Monitoramento 1
-                             5          0
+                             1          0
      Full_model'Info1 1      3          0
      Full_model'Info2 1      1          0
      Full_model'Landed 1     1          0
@@ -85,7 +85,7 @@ Report generated: Tue May 17 00:04:31 2022
      Landing'Pousando 1      1          0
      Landing'Taxiamento_para_o_portao 1
                              1          0
-     Landing'Torre 1         1          0
+     Landing'Torre 1         1          1
      Landing'monitoramento_de_pouso 1
                              1          0
      Landing'novo_procedimento_de_pouso 1
@@ -111,7 +111,7 @@ Report generated: Tue May 17 00:04:31 2022
      Takeoff'Checagem_de_liberacao_de_decolagem 1
                              3          0
      Takeoff'aguardando_aprovacao_de_timeslot 1
-                             6          0
+                             7          0
      Takeoff'aguardando_liberacao_de_decolagem 1
                              3          0
      Takeoff'checagem_de_informacao_para_nova_requisicao_de_decolagem 1
@@ -123,17 +123,17 @@ Report generated: Tue May 17 00:04:31 2022
 
   Best Upper Multi-set Bounds
      Approach'Aguardando_resposta_de_pouso 1
-                         3`(1,"Cessna")++
-3`(2,"C-17")++
-3`(3,"767")
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
      Approach'Checando_pouso 1
-                         3`(1,"Cessna")++
-3`(2,"C-17")++
-3`(3,"767")
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
      Approach'Monitorando 1
-                         2`(1,"Cessna")++
-2`(2,"C-17")++
-2`(3,"767")
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
      Approach'Torre6 1   1`1
      Approach'Transferindo 1
                          1`1
@@ -199,14 +199,13 @@ Report generated: Tue May 17 00:04:31 2022
 1`(2,"C-17")++
 1`(3,"767")
      Full_model'Descida_e_Monitoramento 1
-                         5`(1,"Cessna")++
-5`(2,"C-17")++
-4`(3,"767")
+                         1`(1,"Cessna")++
+1`(2,"C-17")++
+1`(3,"767")
      Full_model'Info1 1  3`1
      Full_model'Info2 1  1`1
      Full_model'Landed 1 1`(1,"Cessna")++
-1`(2,"C-17")++
-1`(3,"767")
+1`(2,"C-17")
      Full_model'Monitoramento_TACC 1
                          1`(1,"Cessna")++
 1`(2,"C-17")++
@@ -239,10 +238,8 @@ Report generated: Tue May 17 00:04:31 2022
                          4`1
      Landing'Aguardando_torre 1
                          1`(1,"Cessna")++
-1`(2,"C-17")++
-1`(3,"767")
-     Landing'Avaliacao 1 1`(1,"Cessna")++
 1`(2,"C-17")
+     Landing'Avaliacao 1 1`(1,"Cessna")
      Landing'Pousando 1  1`(1,"Cessna")++
 1`(2,"C-17")++
 1`(3,"767")
@@ -253,8 +250,7 @@ Report generated: Tue May 17 00:04:31 2022
      Landing'Torre 1     1`1
      Landing'monitoramento_de_pouso 1
                          1`(1,"Cessna")++
-1`(2,"C-17")++
-1`(3,"767")
+1`(2,"C-17")
      Landing'novo_procedimento_de_pouso 1
                          1`(1,"Cessna")++
 1`(2,"C-17")++
@@ -299,7 +295,7 @@ Report generated: Tue May 17 00:04:31 2022
 1`(2,"C-17")++
 1`(3,"767")
      Takeoff'aguardando_aprovacao_de_timeslot 1
-                         6`(1,"Cessna")++
+                         7`(1,"Cessna")++
 6`(2,"C-17")++
 6`(3,"767")
      Takeoff'aguardando_liberacao_de_decolagem 1
@@ -390,7 +386,7 @@ Report generated: Tue May 17 00:04:31 2022
      Landing'Pousando 1  empty
      Landing'Taxiamento_para_o_portao 1
                          empty
-     Landing'Torre 1     empty
+     Landing'Torre 1     1`1
      Landing'monitoramento_de_pouso 1
                          empty
      Landing'novo_procedimento_de_pouso 1
@@ -441,10 +437,9 @@ Report generated: Tue May 17 00:04:31 2022
 ------------------------------------------------------------------------
 
   Dead Markings
-     8842 [39749,39748,39747,39746,39745,...]
+     8492 [46117,46116,46115,46114,46112,...]
 
   Dead Transition Instances
-     Descent'terminando_flow_de_gerenciamento 1
      Landing'Terminado_novo_procedimento_de_pouso 1
      Landing'ainda_nao_aprovado 1
      Landing'aprovado 1
@@ -460,8 +455,9 @@ Report generated: Tue May 17 00:04:31 2022
      None
 
   Fair Transition Instances
-     Descent'terminando_flow_de_gerenciamento 1
+     Landing'Arremetida 1
      Landing'Terminado_novo_procedimento_de_pouso 1
+     Landing'Turnaround 1
      Landing'ainda_nao_aprovado 1
      Landing'aprovado 1
      Landing'obtendo_dados_de_trafego_aereo 1
@@ -490,15 +486,13 @@ Report generated: Tue May 17 00:04:31 2022
      Descent'Detectando_permanencia_de_congestionamento_ou_pior 1
      Descent'Re 1
      Descent'Solicicitacao_de_autorizao_de_descida 1
+     Descent'terminando_flow_de_gerenciamento 1
      Full_model'Chooser 1
      Full_model'Controle1 1
      Full_model'Controle2 1
      Landing'Aproximacao_perdida 1
-     Landing'Arremetida 1
      Landing'Instrucao_taxiamento_para_o_portao 1
      Landing'Liberacao_de_pouso 1
-     Landing'Turnaround 1
-     Landing'assign 1
      OnRoute'Dedicacao_de_rota 1
      OnRoute'Solicitacao_de_liberacao_de_rota 1
      OnRoute'iniciar_transferencia1 1
